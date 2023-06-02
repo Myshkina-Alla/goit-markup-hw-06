@@ -6,6 +6,7 @@
   --backgrounds: #f4f4fd;
   --ctas: #404bbf;
   --accent-color: #e7e9fc;
+  --modal-collor: #8e8f99;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -707,12 +708,12 @@ img {
   position: relative;
 }
 
-.modal-form-description {
+.modal-form-field {
   display: block;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: #8e8f99;
+  color: var(--modal-collor);
   margin-bottom: 4px;
 }
 
