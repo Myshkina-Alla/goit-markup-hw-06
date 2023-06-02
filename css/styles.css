@@ -732,10 +732,6 @@ img {
   border-color: var(--primary-brand);
 }
 
-.modal-input-icon {
-  position: relative;
-}
-
 .modal-form-user-icon {
   position: absolute;
   top: 50%;
