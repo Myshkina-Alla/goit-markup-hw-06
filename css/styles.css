@@ -811,16 +811,23 @@ img {
 
 .modal-form-check-span {
   display: inline-flex;
+  width: 16px;
+  height: 16px;
   align-items: center;
   justify-content: center;
   fill: transparent;
-  width: 16px;
-  height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: var(--ctas);
+  border: none;
+  fill: var(--header-background);
+}
+
+.modal-check-link {
+  color: var(--primary-brand);
 }
 
 .modal-form-submit {
