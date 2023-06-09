@@ -765,6 +765,24 @@ img {
   outline: none;
 }
 
+.police-container {
+  margin-bottom: 24px;
+}
+
+.modal-form-check-desk {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--modal-collor);
+}
+
+.modal-form-check-span {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+}
+
 .modal-form-check-desk span {
   display: flex;
   align-items: center;
@@ -778,10 +796,14 @@ img {
   fill: transparent;
 }
 
+.modal-check-link {
+  color: var(--primary-brand);
+}
+
 .modal-form-check:checked + .modal-form-check-desk span {
   background-color: var(--ctas);
   border: none;
-  fill: var(--header-background);
+  fill: var(--backgrounds);
 }
 
 .footer-form-textarea {
